@@ -95,6 +95,10 @@ h3 {
 
 }
 
+.stelline {
+    background-image: url(../img/stars.svg);
+    line-height: 3rem;
+}
 .green-block {
     min-height: 35rem;
     width: 100%;
@@ -102,41 +106,55 @@ h3 {
     padding: 1rem;
 }
 
-/* INIZIO MAIN */
+/* FINE MAIN */
 
+/* INIZIO FOOTER */
 .row-black {
     background-color: rgb(35, 40, 46);
 }
 
+.flex-container-footer {
+    display: flex;
+    justify-content: center;
+}
+
 .viola {
-    background-color: violet;
-    min-height: 20rem;
     width: calc(100% / 6 * 2);
-    padding: 1rem;
+    padding: 5rem;
 }
 
 .sky {
-    background-color: rgb(98, 245, 245);
-    min-height: 20rem;
     width: calc(100% / 6);
-    border: 1px dashed white;
-    padding: 1rem;
+    padding: 5rem;
     
 }
 
+#title-prodotto,
+.title-footer {
+    color: rgb(64, 64, 241);
+}
+
+.row-black p{
+    color: white;
+}
+
+.title-footer {
+    font-size: 2em;
+}
 
 .bottoni {
-    border-top: 1px solid white;
+    border-top: 1px solid rgb(64, 64, 241);
     justify-content: space-between;
     align-items: center;
     width: 100%;
     min-height: 4rem;
 }
 
-[type] {
-    min-height: 2rem;
-    padding: 0.5rem;
+#pulsante-footer {
+    background-color: rgb(64, 64, 241);
+    color: white;
 }
 
+/* FINE FOOTER */
 
 
