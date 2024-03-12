@@ -34,8 +34,7 @@ header {
 }
 
 .orange {
-    background-color: rgb(255, 189, 68);
-    border: 1px dashed black;
+    color: white;
     padding: 1rem;
     width: calc(70% / 5);
 }
@@ -44,6 +43,7 @@ header {
 .blue-block {
     color: white;
     padding: 8rem 2rem;
+    text-align: center;
 
 }
 
@@ -84,7 +84,6 @@ img {
     min-height: 35rem;
     width: 100%;
     text-align: center;
-    border: 1px dashed black;
     padding: 1rem;
 }
 
@@ -98,7 +97,7 @@ img {
     background-color: violet;
     min-height: 20rem;
     width: calc(100% / 6 * 2);
-    border: 1px dashed black;
+    padding: 1rem;
 }
 
 .sky {
@@ -106,6 +105,7 @@ img {
     min-height: 20rem;
     width: calc(100% / 6);
     border: 1px dashed white;
+    padding: 1rem;
     
 }
 
@@ -114,7 +114,7 @@ hr {
 }
 
 .bottoni {
-    background-color: aqua;
+    border-top: 1px solid white;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -122,7 +122,6 @@ hr {
 }
 
 [type] {
-    border: 1px dashed black;
     min-height: 2rem;
     padding: 0.5rem;
 }
