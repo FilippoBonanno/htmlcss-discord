@@ -12,7 +12,18 @@
 }
 
 header {
-    background-color: lightblue;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+}
+
+.logo {
+    margin-right: 10rem;
+    background-color: rgb(51, 233, 172);
+}
+
+.pulsante-accedi  {
+    margin-left: 10rem;
+    background-color: rgb(51, 233, 172);
 }
 
 .testata,
@@ -26,33 +37,17 @@ header {
     background-color: rgb(255, 189, 68);
     border: 1px dashed black;
     padding: 1rem;
+    width: calc(70% / 5);
 }
 
-.title-1 {
-    width: 20%;
-     
-}
-
-.title-2 {
-    width: 60%;
-    text-align: center; 
-}
-
-.title-3 {
-    width: 20%;
-    text-align: end;
-    
-}
 
 .blue-block {
-    background-color: blue;
     color: white;
-    padding: 2rem;
+    padding: 8rem 2rem;
 
 }
 
 .rose-block {
-    background-color: violet;
     width: 50%;
     padding: 1rem;
     margin: 0 auto;
@@ -69,15 +64,16 @@ header {
     background-color: white;
 }
 
+img {
+    
+}
 .crystal-block {
-    background-color: rgb(135, 167, 228);
     width: 60%;
     min-height: 15rem;
     padding: 1rem;
 }
 
 .pink-block {
-    background-color: rgb(241, 205, 211);
     width: 40%;  
     min-height: 15rem;
     padding: 1rem;
@@ -87,7 +83,7 @@ header {
 .green-block {
     min-height: 35rem;
     width: 100%;
-    background-color: green;
+    text-align: center;
     border: 1px dashed black;
     padding: 1rem;
 }
@@ -117,9 +113,8 @@ hr {
     border: 1 solid white;
 }
 
-.pulsanti {
+.bottoni {
     background-color: aqua;
-    bord
     justify-content: space-between;
     align-items: center;
     width: 100%;
